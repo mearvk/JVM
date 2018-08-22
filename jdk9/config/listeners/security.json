@@ -1,0 +1,37 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "module": {
+      "-type": "security",
+      "-name": "config.listeners.security",
+      "setting": {
+        "-id": "DefaultSecurityListener",
+        "parameter": {
+          "-id": "0",
+          "-name": "DefaultSecurityServer",
+          "#text": "java.lang.system.listeners.DefaultSecurityListener"
+        },
+        "value": [
+          {
+            "-id": "1",
+            "-name": "DefaultInstanceName",
+            "#text": "DefaultSecurityListener"
+          },
+          {
+            "-id": "2",
+            "-name": "DefaultRMIName",
+            "#text": "jdk9/dragon/DefaultSecurityListener"
+          },
+          {
+            "-id": "3",
+            "-name": "ExceptionHandler",
+            "-class": "org.securejvm.DefaultExceptionHandler",
+            "-out": "${PROJECT}/${MODULE}/exceptions/"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "module": {
+      "-type": "key",
+      "-name": "config.keys.keyset",
+      "setting": [
+        {
+          "-id": "DefaultKeySet",
+          "-type": "AES256ECB",
+          "parameter": {
+            "-name": "DefaultKey",
+            "#text": "java.lang.system.keys.DefaultKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultKey"
+            },
+            {
+              "-name": "Salt",
+              "#text": "0115578E9A917C6A"
+            },
+            {
+              "-name": "Key",
+              "#text": "2852AB4760D8B17F58D5E5A7ECBA6CF1FB40049D4C7C20BD7DB8A8505FA2BB65"
+            },
+            {
+              "-name": "IV",
+              "#text": "E7DEC29D8D9580692E99958D051B16B1"
+            }
+          ]
+        },
+        {
+          "-id": "DefaultGroupKeySet",
+          "-type": "AES256ECB",
+          "parameter": {
+            "-name": "GroupKey",
+            "#text": "java.lang.keys.DefaultGroupKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultGroupKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultGroupKey"
+            },
+            {
+              "-name": "Salt",
+              "#text": "FAC82FC4842F001A"
+            },
+            {
+              "-name": "Key",
+              "#text": "B3474ADE0A54E5086DBF7A1E353CD7D40751D766FEB519AE58F5F0DA5F18E770"
+            },
+            {
+              "-name": "IV",
+              "#text": "91E74FB3BB781BE80C477E4373848FC5"
+            }
+          ]
+        },
+        {
+          "-id": "DefaultRMIKeySet",
+          "-type": "AES256ECB",
+          "parameter": {
+            "-name": "RMIKey",
+            "#text": "java.lang.keys.DefaultRMIKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultRMIKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultRMIKey"
+            },
+            {
+              "-name": "Salt",
+              "#text": "97B8E820ABF947D4"
+            },
+            {
+              "-name": "Key",
+              "#text": "7862F11DA4BA360B0B7714B931E6012F89E7B4076124ED67824494735ADE2DE1"
+            },
+            {
+              "-name": "IV",
+              "#text": "97A382BB9E06840325A1A0967D43334F"
+            }
+          ]
+        },
+        {
+          "-id": "DefaultAllocationKeySet",
+          "-type": "AES256ECB",
+          "parameter": {
+            "-name": "RMIKey",
+            "#text": "java.lang.keys.DefaultAllocationKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultAllocationKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultAllocationKey"
+            },
+            {
+              "-name": "Salt",
+              "#text": "304834854BE01E2E"
+            },
+            {
+              "-name": "Key",
+              "#text": "1630BE79A4C8A2C5BFEDFEA7395AD16D49194CAF09F21387CDD03ECBB6D88A19"
+            },
+            {
+              "-name": "IV",
+              "#text": "83A832E8795EDF3C5FC0DEB48FB5B5E8"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

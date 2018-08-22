@@ -1,0 +1,28 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "module": {
+      "-type": "config",
+      "-name": "config.listeners.functions",
+      "setting": {
+        "-id": "FunctionAllocationListener",
+        "parameter": {
+          "-name": "DefaultClass",
+          "#text": "java.lang.system.listeners.FunctionAllocationListener"
+        },
+        "value": [
+          {
+            "-name": "DefaultInstanceName",
+            "#text": "FunctionAllocationListener"
+          },
+          {
+            "-name": "DefaultRMIName",
+            "#text": "dragon/jdk9/FunctionAllocationListener"
+          }
+        ]
+      }
+    }
+  }
+}

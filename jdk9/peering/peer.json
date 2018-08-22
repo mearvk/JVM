@@ -1,0 +1,28 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "document": {
+      "-type": "peering",
+      "-name": "config.peering.peer",
+      "setting": {
+        "-id": "PeerConnector",
+        "parameter": {
+          "-name": "DefaultClass",
+          "#text": "java.lang.peer.PeerConnector"
+        },
+        "value": [
+          {
+            "-name": "DefaultInstanceName",
+            "#text": "PeerConnector"
+          },
+          {
+            "-name": "DefaultRMIName",
+            "#text": "jdk9/dragon/PeerConnector"
+          }
+        ]
+      }
+    }
+  }
+}

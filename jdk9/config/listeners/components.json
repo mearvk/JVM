@@ -1,0 +1,28 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "modules": {
+      "-type": "config",
+      "-name": "config.listeners.components",
+      "setting": {
+        "-id": "ComponentAllocationListener",
+        "parameter": {
+          "-name": "DefaultClass",
+          "#text": "java.lang.system.listeners.ComponentAllocationListener"
+        },
+        "value": [
+          {
+            "-name": "DefaultInstanceName",
+            "#text": "ComponentAllocationListener"
+          },
+          {
+            "-name": "DefaultRMIName",
+            "#text": "dragon/jdk9/ComponentAllocationListener"
+          }
+        ]
+      }
+    }
+  }
+}

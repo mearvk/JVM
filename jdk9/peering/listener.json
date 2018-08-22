@@ -1,0 +1,81 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "document": {
+      "-type": "peering",
+      "-name": "config.peering.peerlistener",
+      "setting": [
+        {
+          "-id": "DefaultKeySet",
+          "parameter": {
+            "-name": "DefaultKey",
+            "#text": "java.lang.keys.DefaultKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultKey"
+            }
+          ]
+        },
+        {
+          "-id": "DefaultGroupKeySet",
+          "parameter": {
+            "-name": "GroupKey",
+            "#text": "java.lang.keys.DefaultGroupKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultGroupKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultGroupKey"
+            }
+          ]
+        },
+        {
+          "-id": "DefaultRMIKeySet",
+          "parameter": {
+            "-name": "RMIKey",
+            "#text": "java.lang.keys.DefaultRMIKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultRMIKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultRMIKey"
+            }
+          ]
+        },
+        {
+          "-id": "DefaultAllocationKeySet",
+          "parameter": {
+            "-name": "RMIKey",
+            "#text": "java.lang.keys.DefaultAllocationKey"
+          },
+          "value": [
+            {
+              "-name": "DefaultInstanceName",
+              "#text": "DefaultAllocationKey"
+            },
+            {
+              "-name": "DefaultRMIName",
+              "#text": "jdk9/dragon/DefaultAllocationKey"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

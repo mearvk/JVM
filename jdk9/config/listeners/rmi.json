@@ -1,0 +1,36 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "module": {
+      "-type": "rmi",
+      "-name": "config.listeners.rmi",
+      "setting": {
+        "-id": "DefaultRMI",
+        "parameter": {
+          "-id": "0",
+          "-name": "DefaultRMI",
+          "#text": "java.lang.system.listeners.DefaultRMIListener"
+        },
+        "value": [
+          {
+            "-id": "1",
+            "-name": "DefaultInstanceName",
+            "#text": "DefaultRMIListener"
+          },
+          {
+            "-id": "2",
+            "-name": "DefaultRMIName",
+            "#text": "jdk9/dragon/DefaultRMIListener"
+          },
+          {
+            "-id": "3",
+            "-maxconnections": "12",
+            "-ttl": "60*1000*5"
+          }
+        ]
+      }
+    }
+  }
+}

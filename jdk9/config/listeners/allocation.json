@@ -1,0 +1,28 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "module": {
+      "-type": "config",
+      "-name": "config.listeners.allocation",
+      "setting": {
+        "-id": "MemoryAllocationListener",
+        "parameter": {
+          "-name": "DefaultClass",
+          "#text": "java.lang.system.listeners.MemoryAllocationListener"
+        },
+        "value": [
+          {
+            "-name": "DefaultInstanceName",
+            "#text": "MemoryAllocationListener"
+          },
+          {
+            "-name": "DefaultRMIName",
+            "#text": "dragon/jdk9/MemoryAllocationListener"
+          }
+        ]
+      }
+    }
+  }
+}

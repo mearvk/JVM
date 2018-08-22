@@ -1,0 +1,37 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "module": {
+      "-type": "startup",
+      "-name": "config.startup.application",
+      "setting": {
+        "-id": "DefaultStartupApplication",
+        "parameter": {
+          "-id": "0",
+          "-name": "DefaultStartupApplication",
+          "#text": "java.lang.system.applications.DefaultStartupApplication"
+        },
+        "value": [
+          {
+            "-id": "1",
+            "-name": "DefaultInstanceName",
+            "#text": "DefaultStartupApplication"
+          },
+          {
+            "-id": "2",
+            "-name": "DefaultRMIName",
+            "#text": "jdk9/dragon/DefaultStartupApplication"
+          },
+          {
+            "-id": "3",
+            "-name": "ExceptionHandler",
+            "-class": "org.securejvm.DefaultExceptionHandler",
+            "-out": "${PROJECT}/${MODULE}/exceptions/"
+          }
+        ]
+      }
+    }
+  }
+}

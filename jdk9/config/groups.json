@@ -1,0 +1,37 @@
+{
+  "namespace": {
+    "-id": "openjdk",
+    "-system": "securejvm",
+    "-org": "org.mearvk.securejvm",
+    "module": {
+      "-type": "groups",
+      "-name": "config.jvm.groups",
+      "setting": {
+        "-id": "DefaultJVMGroups",
+        "parameter": {
+          "-id": "0",
+          "-name": "DefaultStartupApplication",
+          "#text": "java.lang.jvm.groups.DefaultJVMGroups"
+        },
+        "value": [
+          {
+            "-id": "1",
+            "-name": "DefaultInstanceName",
+            "#text": "DefaultJVMGroups"
+          },
+          {
+            "-id": "2",
+            "-name": "DefaultRMIName",
+            "#text": "jdk9/dragon/DefaultJVMGroups"
+          },
+          {
+            "-id": "3",
+            "-name": "ExceptionHandler",
+            "-class": "org.securejvm.DefaultExceptionHandler",
+            "-out": "${PROJECT}/${MODULE}/exceptions/"
+          }
+        ]
+      }
+    }
+  }
+}
